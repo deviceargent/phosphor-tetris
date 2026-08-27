@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "phosphor-tetris",
+  "version": "0.1.0",
+  "identifier": "com.deviceargent.phosphor-tetris",
+  "build": {
+    "frontendDist": "../ui"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "TETRIS · FÓSFORO",
+        "width": 470,
+        "height": 760,
+        "resizable": false,
+        "center": true,
+        "backgroundColor": "#020403"
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": false
+  }
+}
